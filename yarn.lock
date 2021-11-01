@@ -34,67 +34,71 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
-"@peeky/cli@^0.4.2":
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/@peeky/cli/-/cli-0.4.2.tgz#9fd885caec3567ae293e220d61e0e7656847d7f1"
-  integrity sha512-YdTj2rSzvsy9WJuCKLvy4PTYVEndRkZRYTv9D+NuF2AVJShWYtHqs8rQALE9E7B140ePsyTsTnHWLoze06Fj5g==
+"@peeky/cli@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@peeky/cli/-/cli-0.5.0.tgz#0e58390e13bebaa85ecc5588fc07f68ecac6009c"
+  integrity sha512-xLQ4pYBjMMUNz7KJ4V7twdg0+t5MU0BagHPDMHQ2oUQqQeVXwiFtKky4HII1DqC9+f/76vvYhVzg4I0QCYOokw==
   dependencies:
-    "@peeky/config" "^0.4.0"
-    "@peeky/eslint-plugin" "^0.4.0"
-    "@peeky/runner" "^0.4.2"
-    "@peeky/server" "^0.4.2"
+    "@peeky/config" "^0.5.0"
+    "@peeky/eslint-plugin" "^0.5.0"
+    "@peeky/runner" "^0.5.0"
+    "@peeky/server" "^0.5.0"
 
-"@peeky/client-dist@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@peeky/client-dist/-/client-dist-0.4.0.tgz#004f40ae6959f761211f1a138e66bfb713932f7c"
-  integrity sha512-3Drv9Tq1k/MDJk/6rxAR9QOP/HUWDpQcM8i8xzRq33AsqzD6+BxZ4Fq1mPGJa2EypuC0wTKnZpjHfu64MOoIiw==
+"@peeky/client-dist@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@peeky/client-dist/-/client-dist-0.5.0.tgz#d7eded2bf1e92e720c356ea2c43f37067f4637e0"
+  integrity sha512-as6epFycv3PiLL9/z3vDDWHA4HwsbQqWVL31gjXmHxG6l2VDJgDfDGwG2C/8GIHFS/1a0QprT0IIk+MhkbfFng==
 
-"@peeky/config@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@peeky/config/-/config-0.4.0.tgz#293b43089e737b794f965fa57ebf95511f6b3e2a"
-  integrity sha512-bVFvlwfHMOSMUjte0op/nXDgmuw5ISUyvyMAcsl3o5zQgGJHqHdF2b23dmyhyM/1TxkTTn5j7sb3aoUxYsZKMQ==
+"@peeky/config@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@peeky/config/-/config-0.5.0.tgz#e6ffa43c591fd1208328267b12b7f9f8719cc252"
+  integrity sha512-6dK8JdQVNMK8taZk9MdoxRxNtikuQQSPR4925Dsrl70Y+dQwMy270qlNn/an5ZwwSWDN6xSn/Bcb1ASvhg4qsQ==
   dependencies:
-    "@peeky/reactive-fs" "^0.4.0"
-    "@peeky/utils" "^0.4.0"
+    "@peeky/utils" "^0.5.0"
+    reactive-fs "^0.4.1"
 
-"@peeky/eslint-plugin@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@peeky/eslint-plugin/-/eslint-plugin-0.4.0.tgz#eeb75af894a36bdc003857528b22088ce3bba44a"
-  integrity sha512-QiyONT1a8jV3Zes/FOsBxKC4BKcSPqjlNW+VF9LcFGBCE6keFibapMUt0ZaCwmiM6XvtbwDqCyPPCbLTn+ILeA==
+"@peeky/eslint-plugin@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@peeky/eslint-plugin/-/eslint-plugin-0.5.0.tgz#49e286ec0a42a5b2bf4c46a1da696bf05ee7ed2b"
+  integrity sha512-nQgVYKrKlxYeUm52QyUcamnF1jESUP0K2fdVKCXClSRuPmLZ80G8YVlVDgf1y6549b5obACeT1lr7jImSMX5RA==
 
-"@peeky/reactive-fs@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@peeky/reactive-fs/-/reactive-fs-0.4.0.tgz#f1edd187be91e99a15e8b7b557f638d8dc809fff"
-  integrity sha512-BrFOkVnK3UCQz9jbObj3FvDOPasujjeyaD70tCC+nV6GGafcFwZjMOOKmJqM4GDMYdvhGOhPdBxWgZ0SOTiJUA==
-
-"@peeky/runner@^0.4.2":
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/@peeky/runner/-/runner-0.4.2.tgz#7a55e30e7d3bd5946bddadd99ee6736658883dcd"
-  integrity sha512-5p8BbcQmqdNhwmqUfHqDUYoZdCkqRxIIxcXndAprwPj4eZPO7l3WNKaSfudCWCDr9OO8FQGAKZVZBuDBb9IXhg==
+"@peeky/runner@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@peeky/runner/-/runner-0.5.0.tgz#a7eed12833083e500f7725307ceb74ee7056f643"
+  integrity sha512-TlXjc+RPn7yiuEjsh7TiufDhUMzp+LJfwWgxIMlmAKjTI3WE+E3RHyNdWm2aClyUul3dtp6FBsCsW71jQl5M6A==
   dependencies:
     "@types/sinon" "^9.0.10"
-    esbuild "^0.8.33"
+    esbuild "^0.13.12"
     expect "^27.0.6"
+    rollup-plugin-esbuild "^4.6.0"
     sinon "^9.2.3"
     source-map "^0.7.3"
     source-map-support "^0.5.19"
 
-"@peeky/server@^0.4.2":
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/@peeky/server/-/server-0.4.2.tgz#cb6171089f2b02dc38ae1c13cdfd7e55e351a973"
-  integrity sha512-ld2vx74dy54lZsLFbay4eU1kkJhS11BbcMO0F+cjqr8tYmdmcLLTdQFdJlIW3LPAzg40Ks9ktzIKfFEfs33dVA==
+"@peeky/server@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@peeky/server/-/server-0.5.0.tgz#ac2c977f6d2a72176f57c5d330bd35cb5890fdc3"
+  integrity sha512-vM1hI+ikttyMy6MVjSA8MWZK/nbfhpwbvb29itbZ6mRbuFN+HTzZgmVlc5rX1sJgoyXNu+4JKIwQ1rsxCXJvFA==
   dependencies:
-    "@peeky/client-dist" "^0.4.0"
-    "@peeky/config" "^0.4.0"
-    "@peeky/reactive-fs" "^0.4.0"
-    "@peeky/runner" "^0.4.2"
+    "@peeky/client-dist" "^0.5.0"
+    "@peeky/config" "^0.5.0"
+    "@peeky/runner" "^0.5.0"
+    reactive-fs "^0.4.1"
 
-"@peeky/utils@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@peeky/utils/-/utils-0.4.0.tgz#f938991708ec35ec0f2919077a70adc632b51b36"
-  integrity sha512-gOXIQFcXY9+TV9Hj95iymoXtw5OveOxAU9yYQd6vxWT84xZ12cMTIcckN+hHzPhAQkQbYlDj/MM+k01q8XJWOg==
+"@peeky/utils@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@peeky/utils/-/utils-0.5.0.tgz#27d8bae475c51298dd1ea5966fc264092f0ec001"
+  integrity sha512-fBCLOKkMr9FUrn4Wun64eFtRCd8/a/vRPvbItbPs9LM+24VbI33aTSz4A9JKv7s6tbaArb1iwO7/bJBm54JVfA==
   dependencies:
-    esbuild "^0.8.34"
+    esbuild "^0.13.12"
+
+"@rollup/pluginutils@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-4.1.1.tgz#1d4da86dd4eded15656a57d933fda2b9a08d47ec"
+  integrity sha512-clDjivHqWGXi7u+0d2r2sBi4Ie6VLEAzWMIkvJLnDmxoOhBYOTfzGbOQBA32THHm11/LiJbd01tJUpJsbshSWQ==
+  dependencies:
+    estree-walker "^2.0.1"
+    picomatch "^2.2.2"
 
 "@sinonjs/commons@^1.6.0", "@sinonjs/commons@^1.7.0", "@sinonjs/commons@^1.8.1":
   version "1.8.3"
@@ -447,11 +451,6 @@ esbuild@^0.13.12:
     esbuild-windows-64 "0.13.12"
     esbuild-windows-arm64 "0.13.12"
 
-esbuild@^0.8.33, esbuild@^0.8.34:
-  version "0.8.57"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.57.tgz#a42d02bc2b57c70bcd0ef897fe244766bb6dd926"
-  integrity sha512-j02SFrUwFTRUqiY0Kjplwjm1psuzO1d6AjaXKuOR9hrY0HuPsT6sV42B6myW34h1q4CRy+Y3g4RU/cGJeI/nNA==
-
 escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
@@ -461,6 +460,11 @@ escape-string-regexp@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz#a30304e99daa32e23b2fd20f51babd07cffca344"
   integrity sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==
+
+estree-walker@^2.0.1:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-2.0.2.tgz#52f010178c2a4c117a7757cfe942adb7d2da4cac"
+  integrity sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==
 
 expect@^27.0.6:
   version "27.3.1"
@@ -622,10 +626,20 @@ jest-regex-util@^27.0.6:
   resolved "https://registry.yarnpkg.com/jest-regex-util/-/jest-regex-util-27.0.6.tgz#02e112082935ae949ce5d13b2675db3d8c87d9c5"
   integrity sha512-SUhPzBsGa1IKm8hx2F4NfTGGp+r7BXJ4CulsZ1k2kI+mGLG+lxGrs76veN2LF/aUdGosJBzKgXmNCw+BzFqBDQ==
 
+joycon@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/joycon/-/joycon-3.0.1.tgz#9074c9b08ccf37a6726ff74a18485f85efcaddaf"
+  integrity sha512-SJcJNBg32dGgxhPtM0wQqxqV0ax9k/9TaUskGDSJkSFSQOEWWvQ3zzWdGQRIUry2j1zA5+ReH13t0Mf3StuVZA==
+
 js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
+
+jsonc-parser@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/jsonc-parser/-/jsonc-parser-3.0.0.tgz#abdd785701c7e7eaca8a9ec8cf070ca51a745a22"
+  integrity sha512-fQzRfAbIBnR0IQvftw9FJveWiHp72Fg20giDrHz6TdfB12UH/uue0D3hm57UB5KgAVuniLMCaS8P1IMj9NR7cA==
 
 jsonfile@^6.0.1:
   version "6.1.0"
@@ -696,7 +710,7 @@ path-to-regexp@^1.7.0:
   dependencies:
     isarray "0.0.1"
 
-picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3:
+picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.2, picomatch@^2.2.3:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.0.tgz#f1f061de8f6a4bf022892e2d128234fb98302972"
   integrity sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==
@@ -716,6 +730,11 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
+reactive-fs@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/reactive-fs/-/reactive-fs-0.4.1.tgz#063df0330fbc4da0f954f601b6f78974bdf3635a"
+  integrity sha512-l+ZDzjwjob9gmvmwP2/oxnnryuyEi4AJ88eptX4WUR+5HpjKC4b/LWmYHqBr3sE1DQcM+dwck1Yz5qynSzZPcw==
+
 readdirp@~3.6.0:
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-3.6.0.tgz#74a370bd857116e245b29cc97340cd431a02a6c7"
@@ -729,6 +748,15 @@ rimraf@^3.0.2:
   integrity sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==
   dependencies:
     glob "^7.1.3"
+
+rollup-plugin-esbuild@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-esbuild/-/rollup-plugin-esbuild-4.6.0.tgz#293b0c8d2e64b753918f3023c1fb87dc4acdef3b"
+  integrity sha512-fjihkrOCy7qeNDd1VmtWw39UA4b6a96NVrsuK6eg1SArnWoS3G4xLoW7liF0oRQU7+ONPr/Gjxz9cv+WLRhaGA==
+  dependencies:
+    "@rollup/pluginutils" "^4.1.1"
+    joycon "^3.0.1"
+    jsonc-parser "^3.0.0"
 
 sinon@^9.2.3:
   version "9.2.4"
