@@ -1,5 +1,5 @@
 import { markRaw, ref, Ref } from '@vue/reactivity'
-import { existsSync, move, readFile, remove, writeFile } from 'fs-extra'
+import fs from 'fs-extra'
 import { join } from 'path'
 import { Context } from './context'
 
@@ -34,7 +34,7 @@ export function createReactiveFile (ctx: Context, relativePath: string) {
     },
     set content (value) {
       setContent(value)
-      queueFsOp(ctx, writeFile(file.absolutePath, value, 'utf8'))
+      queueFsOp(ctx, fs.writeFile(file.absolutePath, value, 'utf8'))
     },
     get waitForContent () {
       // Track content for reactivity
@@ -48,7 +48,7 @@ export function createReactiveFile (ctx: Context, relativePath: string) {
     remove () {
       if (ctx.state.files[file.relativePath]) {
         delete ctx.state.files[file.relativePath]
-        queueFsOp(ctx, remove(file.absolutePath))
+        queueFsOp(ctx, fs.remove(file.absolutePath))
       }
     },
     move (newRelativePath) {
@@ -59,7 +59,7 @@ export function createReactiveFile (ctx: Context, relativePath: string) {
       file.absolutePath = join(ctx.options.baseDir, newRelativePath)
       delete ctx.state.files[oldRelativePath]
       ctx.state.files[file.relativePath] = file
-      queueFsOp(ctx, move(oldAbsolutePath, file.absolutePath, {
+      queueFsOp(ctx, fs.move(oldAbsolutePath, file.absolutePath, {
         overwrite: true,
       }))
     },
@@ -81,8 +81,8 @@ export function createReactiveFile (ctx: Context, relativePath: string) {
     if (file._internal.active) {
       readPromise = new Promise(resolve => {
         queueFsOp(ctx, (async () => {
-          if (existsSync(file.absolutePath)) {
-            const result = await readFile(file.absolutePath, 'utf8')
+          if (fs.existsSync(file.absolutePath)) {
+            const result = await fs.readFile(file.absolutePath, 'utf8')
             setContent(result)
             resolve(result)
           }

@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "types": [
+      "node",
+      "@peeky/test"
+    ]
+  },
+  "include": ["**/*.spec.ts"],
+  "exclude": []
+}

@@ -1,3 +1,5 @@
+/// <reference types="@peeky/test"/>
+
 import { createReactiveFileSystem, ReactiveFileSystem } from '../src'
 import { join } from 'path'
 
